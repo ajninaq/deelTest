@@ -16,10 +16,11 @@ This repository contains a Cypress test for the scenario: "Verify that text with
    git clone [<repository-url>](https://github.com/ajninaq/deelTest.git)
 Navigate to the cloned repository:
 
-cd cypress/
-Install the dependencies:
+- cd cypress/
+- Install the dependencies:
 
-npm install
+- npm install
+- npm install cypress
 Configuration
 Open the Cypress configuration file cypress.json and update the baseUrl to "https://growth.deel.training/".
 
@@ -28,14 +29,14 @@ There are 2 ways to run the test:
 
 1. The command line
 To run the Cypress test, use the following command:
-npx cypress run
-The cypress test runner will proceed to run the test on the command line
+- npx cypress run
+- The cypress test runner will proceed to run the test on the command line
 
 2. The browser
 Chrome or any web client should be installed.
 To run the Cypress test, use the following command:
-npx cypress open
-This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
+- npx cypress open
+- This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
 
 Test Scenario
 The test scenario covers the following steps:
