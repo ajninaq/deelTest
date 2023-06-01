@@ -16,12 +16,12 @@ This repository contains a Cypress test for the scenario: "Verify that text with
    git clone [<repository-url>](https://github.com/ajninaq/deelTest.git)
 Navigate to the cloned repository:
    ```bash
-    - cd cypress/
+   cd cypress/
    ```
  Install the dependencies:
    ```bash
-   - npm install
-   - npm install cypress
+   npm install
+   npm install cypress
    ```
 
 2. Configuration
@@ -34,16 +34,16 @@ a. The command line
 To run the Cypress test, use the following command:
 
    ```bash
-   - npx cypress run
-   - The cypress test runner will proceed to run the test on the command line
+   npx cypress run
+   The cypress test runner will proceed to run the test on the command line
    ```
 
 b. The browser
 Chrome or any web client should be installed.
 To run the Cypress test, use the following command:
    ```bash
-   - npx cypress open
-   - This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
+   npx cypress open
+   This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
    ```
 
 ## Test Scenario
@@ -58,9 +58,8 @@ The test scenario covers the following steps:
 7. Verify the selected role: Canada
 8. Click the Search button
 9. Verify that when the Search button is clicked, it redirects to the approapriate page 
-10. Verify that the text with the selected role and country is displayed in the header of the chart
-
-(Extra: verify that when low, median and high labels are visible on the graph)
+10. Verify that text with the selected role and country is displayed in the header of the chart
+*Extra: Verify that low, median and high labels are visible on the graph*
 
 
 ## Test File
