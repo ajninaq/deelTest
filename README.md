@@ -40,19 +40,19 @@ This will open the Cypress Test Runner. Click on the test file named deelTest.cy
 Test Scenario
 The test scenario covers the following steps:
 
-Verify that the url redirected to the right page
-Verify that the form title
-Verify that error message is returned on empty field when search button is selected
-Select the role: QA Engineer
-Verify the selected role: QA Engineer
-Select the country: Canada
-Verify the selected role: Canada
-Click the Search button
-Verify that when the Search button is clicked, it redirects to the approapriate page 
-Verify that the text with the selected role and country is displayed in the header of the chart
+1. Verify that the url redirected to the right page
+2. Verify that the form title
+3. Verify that error message is returned on empty field when search button is selected
+4. Select the role: QA Engineer
+5. Verify the selected role: QA Engineer
+6. Select the country: Canada
+7. Verify the selected role: Canada
+8. Click the Search button
+9. Verify that when the Search button is clicked, it redirects to the approapriate page 
+10. Verify that the text with the selected role and country is displayed in the header of the chart
 
 Extra:
-verify that when low, median and high labels are visible on the graph
+11.  verify that when low, median and high labels are visible on the graph
 
 
 Test File
