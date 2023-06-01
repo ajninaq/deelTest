@@ -15,30 +15,38 @@ This repository contains a Cypress test for the scenario: "Verify that text with
    ```bash
    git clone [<repository-url>](https://github.com/ajninaq/deelTest.git)
 Navigate to the cloned repository:
+   ```bash
+   - cd cypress/
+ ```
+ Install the dependencies:
+   ```bash
+   - npm install
+   - npm install cypress
+   ```
 
-- cd cypress/
-- Install the dependencies:
-
-- npm install
-- npm install cypress
-Configuration
+2. Configuration
 Open the Cypress configuration file cypress.json and update the baseUrl to "https://growth.deel.training/".
 
-Running the Test
+## Running the Test
 There are 2 ways to run the test:
 
-1. The command line
+a. The command line
 To run the Cypress test, use the following command:
-- npx cypress run
-- The cypress test runner will proceed to run the test on the command line
 
-2. The browser
+   ```bash
+   - npx cypress run
+   - The cypress test runner will proceed to run the test on the command line
+   ```
+
+b. The browser
 Chrome or any web client should be installed.
 To run the Cypress test, use the following command:
-- npx cypress open
-- This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
+   ```bash
+   - npx cypress open
+   - This will open the Cypress Test Runner. Click on the test file named deelTest.cy.js to run the test.
+   ```
 
-Test Scenario
+## Test Scenario
 The test scenario covers the following steps:
 
 1. Verify that the url redirected to the right page
@@ -56,6 +64,6 @@ Extra:
 11.  verify that when low, median and high labels are visible on the graph
 
 
-Test File
+## Test File
 The test file cypress/e2e/deelTest.cy.js contains the Cypress test implementation for the scenario. It uses Cypress commands and assertions to interact with the website and perform the verification.
 
