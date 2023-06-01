@@ -60,6 +60,9 @@ describe('Verify Role and Country is Selected', () => {
     cy.get('#mui-4').should("have.value" , "Canada");
     cy.get('.MuiButton-root').click()
 
+    //Verify that text with selected role and country is displayed in the header of the chart
+    cy.get('[data-qa="salary-table"] > .MuiTypography-root').should('have.text', 'Senior QA Engineer compensation in Canada')
+
     cy.get(':nth-child(1) > .css-0 > .css-119329a > .css-1lekzkb > .css-70qvj9 > .MuiTypography-root > .deel-ui__typography__heading_6')
       .should('have.text', 'QA Engineer')
 
