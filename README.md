@@ -1,5 +1,3 @@
-# deelTest
-
 # Cypress Test for deel
 
 This repository contains a Cypress test for the scenario: "Verify that text with selected role and country is displayed in the header of the chart" on [https://growth.deel.training/](https://growth.deel.training/).
