@@ -13,7 +13,7 @@ This repository contains a Cypress test for the scenario: "Verify that text with
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/ajninaq/deelTest.git)
 Navigate to the cloned repository:
 
 cd cypress/
