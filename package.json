@@ -1,0 +1,11 @@
+{
+  "name": "deeltest",
+  "version": "1.0.0",
+  "description": "Running Test on deel",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomi",
+  "license": "ISC"
+}
