@@ -16,8 +16,8 @@ This repository contains a Cypress test for the scenario: "Verify that text with
    git clone [<repository-url>](https://github.com/ajninaq/deelTest.git)
 Navigate to the cloned repository:
    ```bash
-   - cd cypress/
- ```
+    - cd cypress/
+   ```
  Install the dependencies:
    ```bash
    - npm install
@@ -60,8 +60,7 @@ The test scenario covers the following steps:
 9. Verify that when the Search button is clicked, it redirects to the approapriate page 
 10. Verify that the text with the selected role and country is displayed in the header of the chart
 
-Extra:
-11.  verify that when low, median and high labels are visible on the graph
+(Extra: verify that when low, median and high labels are visible on the graph)
 
 
 ## Test File
